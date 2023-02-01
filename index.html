@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynnnx</title>
+</head>
+<body>
+    <img src="Group 1.png" alt="">
+    <h1>Bon anniversaire le quintuple redoublant</h1>
+    <span>Gimli</span>
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+    body {
+        position: relative;
+        background: #FF003C;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 50px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    img {
+        height: 50%;
+        object-fit: contain;
+        animation: cake 1.5s infinite linear;
+    }
+
+    @keyframes cake {
+        0%,50% {
+            transform: rotate(0);
+        }
+        25% {
+            transform: rotate(30deg);
+        }
+        75% {
+            transform: rotate(-30deg);
+        }
+    }
+
+    h1 {
+        color: white;
+        font-weight: 800;
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        color: lightgray;
+    }
+</style>
+</html>
